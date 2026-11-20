@@ -77,4 +77,4 @@ git clone https://github.com/<你的用户名>/magit-hanzi.git ~/.emacs.d/lisp/m
 
 ## License
 
-见 LICENSE 文件（如已添加）。
+GPL-3.0-or-later。完整文本见 [LICENSE](LICENSE)。

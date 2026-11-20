@@ -1,9 +1,28 @@
 ;;; magit-hanzi.el --- 让 Magit 界面显示中文 (Chinese localization for Magit) -*- lexical-binding: t; -*-
-;;
+
+;; Copyright (C) 2026 c0ptr <0xbin66@gmail.com>
+
+;; Author: c0ptr <0xbin66@gmail.com>
 ;; Version: 0.1.0
 ;; Package-Requires: ((emacs "27.1") (magit "3.0") (transient "0.3"))
 ;; Keywords: vc, i18n
+;; URL: https://github.com/c0ptr/magit-hanzi
+;; License: GPL-3.0-or-later
+;; Assisted-by: <工具名>:<模型版本>
+
+;; This program is free software; you can redistribute it and/or modify
+;; it under the terms of the GNU General Public License as published by
+;; the Free Software Foundation, either version 3 of the License, or
+;; (at your option) any later version.
 ;;
+;; This program is distributed in the hope that it will be useful,
+;; but WITHOUT ANY WARRANTY; without even the implied warranty of
+;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+;; GNU General Public License for more details.
+;;
+;; You should have received a copy of the GNU General Public License
+;; along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
 ;;; Commentary:
 ;;
 ;; magit-hanzi（"Magit 汉字"）把 Magit 的界面文字换成简体中文：

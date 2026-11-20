@@ -45,23 +45,6 @@ git clone https://github.com/<你的用户名>/magit-hanzi.git ~/.emacs.d/lisp/m
   (magit-hanzi-mode 1))
 ```
 
-### 方式四：MELPA（推荐给更多人用）
-
-本包的文件头已经符合 MELPA 的 recipe 规范（含 `Package-Requires`、`;;;###autoload` 等）。只要把仓库推到 GitHub，然后到 <https://github.com/melpa/melpa> 提一个 PR，新增 recipe 文件 `recipes/magit-hanzi`：
-
-```elisp
-(magit-hanzi :repo "<你的用户名>/magit-hanzi" :fetcher github)
-```
-
-合并后就可以像普通包一样安装：
-
-```elisp
-(use-package magit-hanzi
-  :ensure t
-  :after magit
-  :config
-  (magit-hanzi-mode 1))
-```
 
 ## 自定义词典
 
